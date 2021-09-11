@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom'
 import { ItemList } from './ItemList'
 import { UIContext } from '../../context/UIContext'
 import { getFirestore } from '../../firebase/config'
-/*import { Loader } from '../Loader/Loader'*/
 
 
 export const ItemListContainer = () => {
