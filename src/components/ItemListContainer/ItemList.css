@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+.section__maintitle {
+    font-family: 'Abril Fatface', cursive;
+    color: darkslategray;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; }
+
+.section__container {
+
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 14px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center; }
+

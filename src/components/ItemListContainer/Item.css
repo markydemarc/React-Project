@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.section__cart__viewmore {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    text-decoration: none;
+    margin: auto;
+    width: 30%;
+    height: 25px;
+  }

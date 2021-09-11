@@ -1,0 +1,9 @@
+.navbar__cart__widget {  
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+    display: inline; }
