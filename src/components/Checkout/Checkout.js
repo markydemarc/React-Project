@@ -26,13 +26,13 @@ export const Checkout = () => {
         e.preventDefault()
 
         if (values.name.length > 3 && values.email.length > 3 && values.cel.length > 5) {
-            generarOrden(values, carrito, totalCarrito())
+            generarOrden(values, cart, totalCarrito())
                 .then( res => {
                     Swal.fire({
                         icon: 'success',
-                        title: 'Su compra fue registrada!',
-                        text: `Guarde este identificador: ${res}`,
-                        confirmButtonText: 'Genial!'
+                        title: 'Registered',
+                        text: `Save this number: ${res}`,
+                        confirmButtonText: 'Great!'
                     })
 
                     vaciarCarrito()
@@ -43,8 +43,8 @@ export const Checkout = () => {
         } else {
             Swal.fire({
                 icon: 'error',
-                title: 'Campos inválidos',
-                text: 'Revise su información'
+                title: 'Error',
+                text: 'Check your info'
               })
         }
 
