@@ -7,6 +7,8 @@ import { CartProvider } from "./context/CartContext";
 import { UIContextProvider } from "./context/UIContext";
 import { CartScreen } from "./components/CartScreen/CartScreen";
 import { Checkout } from "./components/Checkout/Checkout";
+import { Footer } from "./components/Footer/Footer";
+
 
 
 function App() {
@@ -37,10 +39,6 @@ function App() {
                  <ItemDetailContainer/>
                 </Route>
 
-                <Route exact path="/experience">
-                 <h1>Experience</h1>
-                </Route>
-
                 <Route exact path="/cart">
                  <CartScreen/>
                 </Route>
@@ -55,11 +53,16 @@ function App() {
 
             </Switch>
 
+            <Footer/>
+            
           </BrowserRouter>
+
         </CartProvider>
 
-      </UIContextProvider>   
+      </UIContextProvider> 
+
     </>
+    
   );
 }
 

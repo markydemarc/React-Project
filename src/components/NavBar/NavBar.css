@@ -20,10 +20,9 @@
 }
 
 .navbar__header__font {
-      text-transform: uppercase;
-      color: darkslategray;
       font-family: 'Roboto', sans-serif;
+      color: darkslategray;
       text-decoration: none;
-      font-size: 22px;
-      padding: 10px;
+      font-size: 15px;
+      padding: 15px;
   }

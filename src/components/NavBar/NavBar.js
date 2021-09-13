@@ -8,13 +8,13 @@ import { Link } from 'react-router-dom'
 export const NavBar = () => {
     return (
         <header className="navbar__header"> 
-            <Link to={"/"}><img src={ logo } className="navbar__header__logo"></img></Link>
+            <Link to={"/"}><img src={ logo } className="navbar__header__logo" alt="Logo"></img></Link>
 
              <nav>  
-               <Link className="mx-1" to={"/"} className="navbar__header__font">Home</Link>
-               <Link className="mx-1" to={"/category/full"} className="navbar__header__font">Full Campaign</Link>
-               <Link className="mx-1" to={"/category/cm"} className="navbar__header__font">CM</Link>
-               <Link className="mx-1" to={"/category/copy"} className="navbar__header__font">Copywriting</Link>
+               <Link className="navbar__header__font" to={"/"}>Home</Link>
+               <Link className="navbar__header__font" to={"/category/full"}>Full Campaign</Link>
+               <Link className="navbar__header__font" to={"/category/cm"}>CM</Link>
+               <Link className="navbar__header__font" to={"/category/copy"}>Copywriting</Link>
                
              </nav>
 

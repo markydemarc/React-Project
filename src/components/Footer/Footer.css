@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 16px;
+    margin: 5rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  
+.footer__a {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 16px;
+    text-decoration: none;
+    width: 5rem;
+    display: flex;
+    justify-content: center; }
