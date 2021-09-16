@@ -8,7 +8,7 @@ import { UIContextProvider } from "./context/UIContext";
 import { CartScreen } from "./components/CartScreen/CartScreen";
 import { Checkout } from "./components/Checkout/Checkout";
 import { Footer } from "./components/Footer/Footer";
-
+import { AboutMe } from "./components/AboutMe/AboutMe";
 
 
 function App() {
@@ -37,6 +37,10 @@ function App() {
 
                 <Route exact path="/detail/:itemId">
                  <ItemDetailContainer/>
+                </Route>
+
+                <Route exact path="/aboutme">
+                 <AboutMe/>
                 </Route>
 
                 <Route exact path="/cart">
