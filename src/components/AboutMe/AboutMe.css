@@ -40,14 +40,13 @@
     justify-content: center;
     text-align: center; }
 
- .section__centertext {
+ .section__abtme__centertext {
     font-family: 'Roboto', sans-serif;
     color: darkslategray;        
     font-size: 16px;
     max-width: 70%;
     padding: 20px 0;
     margin: 0 auto;
-    display: flex;
     justify-content: center;
     text-align: center; }
 

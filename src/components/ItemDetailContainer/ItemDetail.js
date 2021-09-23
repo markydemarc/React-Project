@@ -18,7 +18,7 @@ export const ItemDetail = ({category, id, name, desc, img, price, stock}) => {
         <div className="section__centertext">
            <h2>{name}</h2>  
            <p>Price: USD{price}</p> 
-           <img src={img} alt={name}/>
+           <img className="section__product__img" src={img} alt={name}/>
            <p>{desc}</p> 
 
            <Counter 
