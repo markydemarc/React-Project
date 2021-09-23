@@ -8,9 +8,7 @@ WorkWithMe es un e-commerce en la que vendo mi servicio como freelance de ideas 
 - Filtro por categorías: tomando las categorías de la base de datos se generan filtros de productos
 - Carrito: cuenta vista completa de los items del carrito, su total, y la opción de sacar un producto del carrito
 - Vista de detalles: vista con todos los detalles del producto y la opción de agregar una cantidad del mismo
--
--
--
+- Checkout: Suma productos, genera un total y lleva a un form en el que se cargan datos y se genera un ID de nueva órden a mi firestore. 
 
 ## Objetivos
 
